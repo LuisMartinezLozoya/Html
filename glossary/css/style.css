@@ -1,0 +1,112 @@
+html{
+    background-color: #2F3738;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+    background-size:cover;
+}
+
+h1{
+    color: #2F3738;
+    text-align: center;
+    padding-top: .3em; 
+    font-size: 3em;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+div.lexique
+{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -o-column-count: 3;
+    -ms-column-count: 3;
+    column-count: 3;
+    -webkit-column-rule: 1px dotted #ccc;
+    -moz-column-rule: 1px dotted #ccc;
+    -o-column-rule: 1px dotted #ccc;
+    -ms-column-rule: 1px dotted #ccc;
+    column-rule: 1px dotted #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  div.lexique
+  {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -ms-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div.lexique
+  {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -o-column-count: 1;
+    -ms-column-count: 1;
+    column-count: 1;
+    -webkit-column-rule: none;
+    -moz-column-rule: none;
+    -o-column-rule: none;
+    -ms-column-rule: none;
+    column-rule: none;
+  }
+}
+
+div.set
+{
+    display: inline-block;
+    width: 100%;
+    color: white;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    -ms-column-break-inside: avoid;
+    column-break-inside: avoid;
+}
+
+h3.letter
+{
+    
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:x-large;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 15px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color: white
+    font-family: 'Noto Sans', sans-serif;
+    font-size:large;
+}
+
+ul li
+{
+    margin: 3px 0;
+
+}
+
+a, a:visited
+{
+    color: #59D8E5;
+
+}
+
+a:hover
+{
+    color: white;
+}

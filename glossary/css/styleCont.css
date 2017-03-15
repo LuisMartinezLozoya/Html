@@ -1,0 +1,38 @@
+html{
+	background-color: #2F3738; 
+}
+
+header{
+    
+}
+
+h1{
+	color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Cabin', sans-serif;
+}
+
+h2{
+	color: #E74C3C;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: xx-large;
+}
+
+div#cont{
+	margin-left: 170px;
+	max-width: 1000px;
+	padding-left: 1em;
+	background-color: white;
+	
+}
+
+img{
+	display: inline-flex;
+}
+
+p{
+	color: black;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: large;
+}
