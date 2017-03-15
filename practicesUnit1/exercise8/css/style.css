@@ -1,0 +1,17 @@
+body{
+
+}
+
+article{
+	margin-right: 170px;
+    border-right: 1px solid gray;
+    padding: 1em;
+}
+
+nav{
+	background-color: #00e6ac;
+	max-width: 160px;
+    margin: 0;
+    padding: 1em;
+	float: right;
+}

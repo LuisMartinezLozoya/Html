@@ -1,0 +1,51 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #F2EBC7;
+}
+
+header{
+	margin-top: 0;
+	height: 60px;
+	padding: 2px;
+	background-color: #343642;
+}
+
+header h1{
+	color: white;
+	text-align: center;
+}
+
+nav{
+	float: left;
+	max-width: 200px;
+	padding: 1.5em;
+}
+
+section{
+	float: left;
+	padding: 1em;
+	border-left: 2px solid gray; 
+}
+
+aside{
+	float: left;
+	margin-left: 350px;
+
+}
+
+footer{
+	clear: left;
+	text-align: center;
+}
+
+a{
+	font-size: large;
+	text-decoration: none;
+	color: #262730;
+}
+
+h2{
+	color: #348899;
+}
+
+
